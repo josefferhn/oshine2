@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    background-color: #fff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .nav-link{
+    color: #000;
+} 
+.header-area.sticky .d-none{
+    display: block !important;
+}
+.header-area.sticky .d-block{
+    display: none !important;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.section{
+    padding: 5% 0;
+}
+#home{
+    background-image: url("../img/Hero-BG.jpg");
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+    position: relative;
+}
+#home h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 15%;
+}
+#home p{
+    font-size: 18px;
+}
+#home .btn  {
+    border-radius: 0;
+    color: #528eff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+}
+#home::before{
+    content: '';
+    background-color: rgba(39,45,237,0.70);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+}
+
+#about{
+    color: #878787;
+}
+.titulo{
+    font-size: 42px;
+    color: #303132;
+    font-weight: 700;
+}
+.subtitulo{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #878787;
+}
+.btn-morado{
+    color: #fff;
+    background-color: #272DED;
+    border-radius: 0;
+    padding: 13px 30px;
+    text-transform: uppercase;
+}
+.btn-blanco{
+    color: #528eff;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 40px 0px #ccc ;
+    transition: all 0.3s ease-in-out;
+    border: 0;
+}
+.btn-blanco:hover{
+    color: #528eff;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+#about .titulo{
+    margin-top: 30%;
+}
+
+#about-morado{
+    background-color: #528EFF;
+    padding: 5% 0;
+    color: #fff;
+}
+#about-morado .titulo{
+     color: #fff;   
+}
+
+#about .row:nth-child(2){
+    margin-top: 50px;
+}
+#about-morado .row:nth-child(2){
+    margin-top: 50px;
+}
+
+
+#features{
+    text-align: center;
+}
+.feature{
+    border:1px solid #000;
+    border-radius: 12px;
+    padding: 15% 10%;
+    font-size: 16px;
+    color: #878787;
+}
+.feature h3{
+    color: #303132;
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.feature i{
+    color: #272DED;
+    font-size: 26px;
+}
+#features .titulo{
+    margin-bottom: 50px;
+}
+#features .row:nth-child(2){
+    margin-bottom: 30px;
+}
+
+#team{
+    text-align: center;
+}
+
+.bg-morado{
+    background: linear-gradient(270deg,#528eff,#272DED);
+    padding: 10% 0;
+    margin-top: 15%;
+}
+
+.team{
+    padding: 15% 10%;
+    background-color: #fff;
+    box-shadow: 0px 4px 50px 0px #000;
+    border-radius: 12px;
+}
+.bg-morado .row{
+    margin-top: -20%;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
